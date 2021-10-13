@@ -80,6 +80,16 @@ td p{
     margin-left: 0.8em;
 }
 
+.masInfo:hover{
+    color: #222222;
+    opacity: 0.8;
+}
+
+.masInfo:active {
+    position: relative;
+    top: 1px;
+}
+
 td p i{
     color: var(--secondary);
     font-weight: lighter;

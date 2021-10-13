@@ -65,6 +65,11 @@ button img{
     height: 18px;
 }
 
+button:active {
+    position: relative;
+    top: 1px;
+}
+
 nav p{
     font-size:35px;
     letter-spacing: 5px;
@@ -157,6 +162,16 @@ h1{
     color: white;
     cursor: pointer;
     font-size: 12px;
+}
+
+.descarga:hover{
+    background-color:#374e2d;
+    border: 2px solid #374e2d;
+}
+
+.descarga:active {
+    position: relative;
+    top: 1px;
 }
 
 /* ---------------------------------- Imagen ---------------------------------- */
