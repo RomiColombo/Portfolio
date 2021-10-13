@@ -8,16 +8,15 @@
 }
 
 .portfolio{
-    height: 868px;
+    height: 90vh;
     background-color:var(--primary)
 
 }
 
 .portfolio h3{
-    font-size: 35px;
+    font-size: 30px;
     line-height: 100px;
     color: var(--secondary);
-    font-weight:lighter;
 }
 
 .portfolio p{
@@ -39,4 +38,13 @@
     align-items: center;
     justify-content: space-between;
     align-content: center;
+}
+
+.containerPortfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 70vh;
 }

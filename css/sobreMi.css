@@ -28,10 +28,9 @@
 }
 
 .containerSM h3{
-    font-size: 35px;
+    font-size: 30px;
     line-height: 100px;
     color: var(--secondary);
-    font-weight:lighter;
 }
 
 .containerSM div{
