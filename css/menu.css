@@ -24,7 +24,7 @@ hr{
 }
 
 .menu{
-    height: 25vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
