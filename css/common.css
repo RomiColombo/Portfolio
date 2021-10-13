@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --primary: #456037;
+    --secondary: #F16F37;
+    --background: #FAFAFA;
+}
+
+body{
+    background-color: var(--background);
+}

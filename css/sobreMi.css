@@ -1,0 +1,50 @@
+@import url('common.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sobreMi{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerSM{
+    width: 1100px;
+    height: 457px;
+    border-radius: 35px;
+    background-color:var(--primary);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.containerSM h3{
+    font-size: 35px;
+    line-height: 100px;
+    color: var(--secondary);
+    font-weight:lighter;
+}
+
+.containerSM div{
+    width: 570px;
+}
+
+.containerSM p{
+    font-size: 18px;
+    line-height: 35px;
+    color: #F9F9F9;
+}
+
+.containerSM img{
+    width: 400px;
+    height: 300px;
+}

@@ -8,87 +8,114 @@
     <title>Romina Colombo</title>
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-    crossorigin="anonymous" />
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <p>RC</p>
-            <hr>
+            <div class="logo">
+                <p>RC</p>
+                <hr>
+            </div>
             <div class="menu">
-                <img src="./img/Home.png" alt="Home">
-                <img src="./img/Usuario.png" alt="SobreMi">
-                <img src="./img/Conocimientos.png" alt="Conocimientos">
-                <img src="./img/Portfolio.png" alt="Portfolio">
+                <a href=""><i class="fas fa-home menuI selected"></i></a>
+                <a href="#sobreMi"><i class="far fa-user menuI"></i></a>
+                <a href="#conocimientos"><i class="fas fa-tools menuI"></i></a>
+                <a href="#portfolio"><i class="fas fa-briefcase menuI"></i></a>
             </div>
             <div class="idiomas">
                 <button><img src="./img/Español.png" alt="Español"></button>
                 <button><img src="./img/Ingles.png" alt="Ingles"></button>
             </div>
         </nav>
-        <div class="Descripcion">
+        <div class="descripcion">
             <h4>¡Hola!</h4>
             <h1>Soy Romina Colombo Desarrolladora FullStack Jr.</h1>
             <p>Vivo en Corrientes Capital, Argentina</p>
-            <p>Seguime</p>
-            <a href="./pdf/Romina Paola Colombo.pdf" download="CV_RominaColombo">Descargar CV</a>
+            <div class="social">
+                <p>Seguime</p>
+                <a href="https://www.linkedin.com/in/romina-paola-colombo-455440ba/" target="_blank"><i
+                        class="fab fa-linkedin-in linkedin"></i></a>
+                <a href="https://github.com/RomiColombo" target="_blank"><i class="fab fa-github github"></i></a>
+            </div>
+            <a href="./pdf/Romina Paola Colombo.pdf" download="CV_RominaColombo" class="descarga">Descargar CV</a>
         </div>
-        <div>
+        <div class="fotoPerfil">
             <img src="./img/Perfil.png" alt="Foto Perfil Romi">
         </div>
     </header>
     <main>
-        <section class="sobreMi">
-            <img src="./img/pantalla.svg" alt="Imagen animada de una pantalla">
-            <h3>Sobre Mí</h3>
-            <p>Estoy comenzando mi carrera en el mundo de IT, soy organizado, meticuloso y autodidacta</p>
+        <section class="sobreMi" id="sobreMi">
+            <div class="containerSM">
+                <img src="./img/pantalla.svg" alt="Imagen animada de una pantalla">
+                <div>
+                    <h3>Sobre Mí</h3>
+                    <p>Estoy comenzando mi carrera en el mundo de IT, soy organizada, meticulosa y autodidacta</p>
+                </div>
+            </div>
         </section>
-        <section class="conocimientos">
+        <section class="conocimientos" id="conocimientos">
             <h3>Conocimientos</h3>
-            <div>
-                <h4>Programación</h4>
-                <ul>
-                    <li>Node Js.</li>
-                    <li>POO: JAVA</li>
-                </ul>
+            <div class="containerConocimientos">
+                <div>
+                    <img src="./img/Programacion.png" alt="Icono Programacion">
+                    <h4>Programación</h4>
+                    <ul>
+                        <li>Node Js.</li>
+                        <li>POO: JAVA</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="./img/Usuario.png" alt="Icono Desarrollo de interfaz de usuario">
+                    <h4>Desarrollo de interfaz de usuario</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS, SASS</li>
+                        <li>React</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="./img/BDD.png" alt="Icono Bases de Datos">
+                    <h4>Bases de Datos</h4>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>Stata</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="./img/Metodologias.png" alt="Icono Metodologías agiles">
+                    <h4>Métodologías Ágiles</h4>
+                    <ul>
+                        <li>Agile</li>
+                        <li>Scrum</li>
+                    </ul>
+                </div>
+
             </div>
-            <div>
-                <h4>Desarrollo de interfaz de usuario</h4>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS, SASS</li>
-                    <li>React</li>
-                    <li>Figma</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Bases de Datos</h4>
-                <ul>
-                    <li>MySQL</li>
-                    <li>Stata</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Métodologías Ágiles</h4>
-                <ul>
-                    <li>Agile</li>
-                    <li>Scrum</li>
-                </ul>
-            </div>
+
         </section>
-        <section class="portfolio">
-            <h3>Portfolio</h3>
-            <p>Ver Más</p><a href="https://github.com/RomiColombo" target="_blank"><i class="fas fa-arrow-right"></i></a>
+        <section class="portfolio" id="portfolio">
+            <div class="headerPortfolio">
+                <h3>Portfolio</h3>
+                <p>Ver Más <a href="https://github.com/RomiColombo" target="_blank"><i class="fas fa-arrow-right"></i></a></p>
+                
+            </div>
             <div>
-                <a href="https://github.com/RomiColombo/API_ClinicaOdontologica" target="_blank"><img src="./img/Clinica.png" alt="Link a proyecto API"></a>
-                <a href="https://romicolombo.github.io/FrontEnd/LemonPie" target="_blank"><img src="./img/LemonPie.png" alt="Link a proyecto LemonPie"></a>
+                <a href="https://github.com/RomiColombo/API_ClinicaOdontologica" target="_blank"><img
+                        src="./img/Clinica.png" alt="Link a proyecto API"></a>
+                <a href="https://romicolombo.github.io/FrontEnd/LemonPie" target="_blank"><img src="./img/LemonPie.png"
+                        alt="Link a proyecto LemonPie"></a>
                 <a href="" target="_blank"><img src="./img/PeYa.png" alt="Link a proyecto Pedidos Ya"></a>
-                <a href="https://romicolombo.github.io/FrontEnd/RickAndMorty" target="_blank"><img src="./img/RickAndMorty.png" alt="Link a proyecto RickAndMorty"></a>
-                <a href="https://romicolombo.github.io/FrontEnd/Shop" target="_blank"><img src="./img/Shop.png" alt="Link a Proyecto Shop"></a>
-                <a href="https://romicolombo.github.io/FrontEnd/Superheroes" target="_blank"><img src="./img/SuperHeroes.png" alt="Link a Proyecto Cards SuperHeroes"></a>
+                <a href="https://romicolombo.github.io/FrontEnd/RickAndMorty" target="_blank"><img
+                        src="./img/RickAndMorty.png" alt="Link a proyecto RickAndMorty"></a>
+                <a href="https://romicolombo.github.io/FrontEnd/Shop" target="_blank"><img src="./img/Shop.png"
+                        alt="Link a Proyecto Shop"></a>
+                <a href="https://romicolombo.github.io/FrontEnd/Superheroes" target="_blank"><img
+                        src="./img/SuperHeroes.png" alt="Link a Proyecto Cards SuperHeroes"></a>
             </div>
         </section>
         <section class="historialEducativo">

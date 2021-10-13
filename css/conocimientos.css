@@ -1,0 +1,47 @@
+@import url('common.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conocimientos{
+    height: 50vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.conocimientos h3{
+    font-size: 35px;
+    line-height: 62px;
+    color: #222222;
+    font-weight:lighter;
+
+}
+
+.containerConocimientos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+ul{
+    list-style:none
+}
+
+h4{
+    font-size: 20px;
+    line-height: 36px;
+    color:#222222;
+}
+
+li{
+    font-size: 15px;
+    line-height: 30px;
+    color: rgba(34, 34, 34, 0.5);
+}
