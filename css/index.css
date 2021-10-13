@@ -26,4 +26,24 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-size: 14px;
+}
+
+.githubFooter{
+    color: black;
+    cursor: pointer;
+}
+
+.linkedinFooter{
+    color:#0E76A8;
+    cursor: pointer;
+}
+
+.mail{
+    color:rgba(34, 34, 34, 0.5);
+    font-size: 14px;
+}
+
+.mail i{
+    margin-right: 0.5em;
 }
